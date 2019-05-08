@@ -1,0 +1,50 @@
+$date
+	Sat Aug 18 00:21:50 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testing $end
+$var wire 1 ! op $end
+$var reg 1 " r1 $end
+$var reg 1 # r2 $end
+$var reg 1 $ r3 $end
+$scope module m $end
+$var wire 1 # in1 $end
+$var wire 1 $ in2 $end
+$var wire 1 " select $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1#
+1"
+1!
+$end
+#5
+0!
+0"
+#14
+0#
+#32
+1!
+1$
+1#
+1"
+#52
+0$
+#77
+1$
+0#
+0"
+#107
+0!
+0$
+1"
+#142
